@@ -96,12 +96,12 @@ const Film = () => {
             Tambah
           </button>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center shadow appearance-none border border-l-0 rounded w-1/3 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
           <input
             type="text"
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search"
-            className="shadow appearance-none border border-l-0 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="w-full"
           />
           <Search />
         </div>

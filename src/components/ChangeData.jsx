@@ -29,7 +29,7 @@ const ChangeData = ({
     const { name, value } = e.target;
     setNewMovie((prevState) => ({
       ...prevState,
-      [name]: name === "year" ? Number.parseInt(value) : value,
+      [name]: name === "year" || name === "duration" ? Number.parseInt(value) : value,
     }));
   };
   return (

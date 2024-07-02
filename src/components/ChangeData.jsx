@@ -85,7 +85,7 @@ const ChangeData = ({
                 Durasi
               </label>
               <input
-                type="text"
+                type="number"
                 name="duration"
                 id="duration"
                 placeholder="100"
